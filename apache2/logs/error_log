@@ -1,0 +1,29 @@
+[Fri Jul 20 11:33:27.636703 2018] [ssl:warn] [pid 10771] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 20 11:33:27.693593 2018] [ssl:warn] [pid 10772] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 20 11:33:27.832284 2018] [mpm_prefork:notice] [pid 10772] AH00163: Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.19 configured -- resuming normal operations
+[Fri Jul 20 11:33:27.832433 2018] [core:notice] [pid 10772] AH00094: Command line: '/Applications/mampstack-7.1.19-1/apache2/bin/httpd.bin -f /Applications/mampstack-7.1.19-1/apache2/conf/httpd.conf'
+[Fri Jul 20 11:33:31.401687 2018] [mpm_prefork:notice] [pid 10772] AH00169: caught SIGTERM, shutting down
+[Fri Jul 20 11:33:34.038089 2018] [ssl:warn] [pid 10813] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 20 11:33:34.083351 2018] [ssl:warn] [pid 10814] AH01909: localhost:8443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 20 11:33:34.119764 2018] [mpm_prefork:notice] [pid 10814] AH00163: Apache/2.4.33 (Unix) OpenSSL/1.0.2o PHP/7.1.19 configured -- resuming normal operations
+[Fri Jul 20 11:33:34.119848 2018] [core:notice] [pid 10814] AH00094: Command line: '/Applications/mampstack-7.1.19-1/apache2/bin/httpd.bin -f /Applications/mampstack-7.1.19-1/apache2/conf/httpd.conf'
+[Fri Jul 20 16:14:41.998985 2018] [authz_core:error] [pid 11059] [client 127.0.0.1:60419] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:14:42.104681 2018] [authz_core:error] [pid 11059] [client 127.0.0.1:60419] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://127.0.0.1:8080/
+[Fri Jul 20 16:17:27.484031 2018] [authz_core:error] [pid 11075] [client 127.0.0.1:60496] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:17:27.596228 2018] [authz_core:error] [pid 11075] [client 127.0.0.1:60496] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://127.0.0.1:8080/
+[Fri Jul 20 16:19:52.192498 2018] [authz_core:error] [pid 10818] [client 127.0.0.1:60519] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:19:52.214771 2018] [authz_core:error] [pid 10818] [client 127.0.0.1:60519] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://127.0.0.1:8080/
+[Fri Jul 20 16:19:53.661621 2018] [authz_core:error] [pid 10818] [client 127.0.0.1:60519] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:19:53.688805 2018] [authz_core:error] [pid 10818] [client 127.0.0.1:60519] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://127.0.0.1:8080/
+[Fri Jul 20 16:21:03.396344 2018] [authz_core:error] [pid 11059] [client ::1:60537] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:21:03.741247 2018] [authz_core:error] [pid 11059] [client ::1:60537] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://localhost:8080/
+[Fri Jul 20 16:22:11.599412 2018] [authz_core:error] [pid 10817] [client 127.0.0.1:60556] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:22:11.634466 2018] [authz_core:error] [pid 10817] [client 127.0.0.1:60556] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://127.0.0.1:8080/
+[Fri Jul 20 16:26:56.531524 2018] [authz_core:error] [pid 11077] [client 127.0.0.1:60790] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:26:56.554557 2018] [authz_core:error] [pid 11077] [client 127.0.0.1:60790] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://127.0.0.1:8080/
+[Fri Jul 20 16:32:10.372408 2018] [authz_core:error] [pid 10815] [client ::1:61047] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Fri Jul 20 16:32:10.484804 2018] [authz_core:error] [pid 11059] [client ::1:61048] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://localhost:8080/
+[Sat Jul 21 19:53:52.702318 2018] [authz_core:error] [pid 11037] [client ::1:63580] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Sat Jul 21 19:53:53.124007 2018] [authz_core:error] [pid 11037] [client ::1:63580] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://localhost:8080/
+[Sat Jul 21 19:54:11.416937 2018] [authz_core:error] [pid 11075] [client ::1:63596] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1
+[Sat Jul 21 19:54:11.462038 2018] [authz_core:error] [pid 11075] [client ::1:63596] AH01630: client denied by server configuration: /Applications/mampstack-7.1.19-1, referer: http://localhost:8080/index.html

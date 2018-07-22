@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+
+exec /bin/bash --rcfile "/Applications/mampstack-7.1.19-1/.bashrc"

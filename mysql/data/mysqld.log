@@ -1,0 +1,58 @@
+2018-07-20T02:33:01.6NZ mysqld_safe Logging to '/Applications/mampstack-7.1.19-1/mysql/data/mysqld.log'.
+2018-07-20T02:33:01.6NZ mysqld_safe Starting mysqld.bin daemon with databases from /Applications/mampstack-7.1.19-1/mysql/data
+2018-07-20T02:33:02.036713Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-07-20T02:33:02.037007Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2018-07-20T02:33:02.037068Z 0 [Note] /Applications/mampstack-7.1.19-1/mysql/bin/mysqld.bin (mysqld 5.7.22) starting as process 10705 ...
+2018-07-20T02:33:02.042962Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-07-20T02:33:02.042994Z 0 [Note] InnoDB: Uses event mutexes
+2018-07-20T02:33:02.043008Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-07-20T02:33:02.043020Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-07-20T02:33:02.043488Z 0 [Note] InnoDB: Number of pools: 1
+2018-07-20T02:33:02.043646Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-07-20T02:33:02.045908Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2018-07-20T02:33:02.064037Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-07-20T02:33:02.081754Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-07-20T02:33:02.092370Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-07-20T02:33:02.092845Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-07-20T02:33:02.116760Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-07-20T02:33:02.117747Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-07-20T02:33:02.117774Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-07-20T02:33:02.118014Z 0 [Note] InnoDB: Waiting for purge to start
+2018-07-20T02:33:02.169460Z 0 [Note] InnoDB: 5.7.22 started; log sequence number 2589156
+2018-07-20T02:33:02.169769Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/mampstack-7.1.19-1/mysql/data/ib_buffer_pool
+2018-07-20T02:33:02.170018Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-07-20T02:33:02.176923Z 0 [Note] InnoDB: Buffer pool(s) load completed at 180720 11:33:02
+2018-07-20T02:33:02.183049Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-07-20T02:33:02.183089Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2018-07-20T02:33:02.183487Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2018-07-20T02:33:02.183655Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2018-07-20T02:33:02.186388Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.186456Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.186476Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.186512Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.186526Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.186558Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.189137Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.189216Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-07-20T02:33:02.199681Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-07-20T02:33:02.199828Z 0 [Note] /Applications/mampstack-7.1.19-1/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.22'  socket: '/Applications/mampstack-7.1.19-1/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2018-07-20T04:33:22.056616Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 6547490ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T05:07:10.060905Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1961693ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T05:08:47.062818Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 84956ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T05:13:59.062519Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 265711ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T05:19:34.062573Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 288769ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T05:55:10.065392Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2081693ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T06:12:26.067156Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 969695ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T06:40:09.069114Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1645931ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T06:59:03.100403Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 71961ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-20T07:41:33.168476Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 362611ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-21T00:35:39.423765Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 53378846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-21T10:34:07.279616Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 35876055ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-21T12:00:36.594479Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 64402ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-22T00:24:56.605025Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 44419268ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-22T00:37:47.608235Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 638363ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-22T04:16:57.055159Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 590673ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-22T04:21:59.460673Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 253746ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-22T04:47:11.094270Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 492947ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-07-22T12:11:07.258729Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 21790258ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
